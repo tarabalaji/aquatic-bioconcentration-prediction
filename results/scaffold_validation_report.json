@@ -1,0 +1,22 @@
+{
+    "split_method": "Bemis-Murcko scaffold split",
+    "random_state": 42,
+    "requested_test_fraction": 0.2,
+    "actual_test_fraction": 0.29640151515151514,
+    "total_compounds": 1056,
+    "training_compounds": 743,
+    "testing_compounds": 313,
+    "unique_total_scaffolds": 282,
+    "unique_training_scaffolds": 281,
+    "unique_testing_scaffolds": 1,
+    "scaffold_overlap_count": 0,
+    "largest_scaffold_group": 313,
+    "median_scaffold_group_size": 1.0,
+    "no_scaffold_compounds": 152,
+    "invalid_structure_count": 0,
+    "best_model_name": "xgboost",
+    "best_feature_group": "combined",
+    "best_mae": 0.4301098906851043,
+    "best_rmse": 0.5678852194866558,
+    "best_r2": 0.7247424048367263
+}
