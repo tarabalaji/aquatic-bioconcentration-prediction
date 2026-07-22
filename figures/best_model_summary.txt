@@ -1,0 +1,10 @@
+Model: Xgboost
+Feature group: Combined
+Feature count: 2050
+Test rows: 212
+MAE: 0.4228
+RMSE: 0.5713
+R²: 0.8495
+Median absolute error: 0.3303
+Explained variance: 0.8501
+Maximum absolute error: 2.4877
