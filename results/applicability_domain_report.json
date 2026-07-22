@@ -1,0 +1,23 @@
+{
+    "method": "nearest-neighbor Morgan fingerprint Tanimoto similarity",
+    "model_name": "xgboost",
+    "feature_group": "combined",
+    "fingerprint_radius": 2,
+    "fingerprint_size": 2048,
+    "similarity_threshold": 0.4,
+    "training_compounds": 844,
+    "test_compounds": 212,
+    "valid_training_structures": 844,
+    "invalid_training_structures": 0,
+    "valid_test_structures": 212,
+    "invalid_test_structures": 0,
+    "in_domain_count": 148,
+    "out_of_domain_count": 64,
+    "in_domain_fraction": 0.6981132075471698,
+    "mean_test_similarity": 0.5110605626948049,
+    "median_test_similarity": 0.5,
+    "in_domain_mae": 0.36682313623863294,
+    "out_of_domain_mae": 0.5521443205699326,
+    "similarity_error_spearman_correlation": -0.13621980096194544,
+    "similarity_error_p_value": 0.0476016926215238
+}
