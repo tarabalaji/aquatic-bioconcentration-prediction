@@ -1,0 +1,40 @@
+{
+    "input_file": "data/processed/features.csv",
+    "target_column": "log_bcf",
+    "logkow_column": "log_kow",
+    "random_state": 42,
+    "test_size": 0.2,
+    "total_rows": 1056,
+    "train_rows": 844,
+    "test_rows": 212,
+    "feature_groups": {
+        "logkow_only": {
+            "feature_count": 1,
+            "features_file": "models/logkow_only/feature_columns.json"
+        },
+        "descriptors_only": {
+            "feature_count": 204,
+            "features_file": "models/descriptors_only/feature_columns.json"
+        },
+        "fingerprints_only": {
+            "feature_count": 1845,
+            "features_file": "models/fingerprints_only/feature_columns.json"
+        },
+        "descriptors_logkow": {
+            "feature_count": 205,
+            "features_file": "models/descriptors_logkow/feature_columns.json"
+        },
+        "combined": {
+            "feature_count": 2050,
+            "features_file": "models/combined/feature_columns.json"
+        }
+    },
+    "models": [
+        "linear_regression",
+        "ridge_regression",
+        "random_forest",
+        "xgboost",
+        "catboost"
+    ],
+    "total_models_trained": 25
+}
