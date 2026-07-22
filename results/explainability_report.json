@@ -1,0 +1,110 @@
+{
+    "model_name": "xgboost",
+    "feature_group": "combined",
+    "model_path": "models/combined/xgboost.joblib",
+    "feature_count": 2050,
+    "permutation_importance_generated": true,
+    "shap_generated": true,
+    "top_permutation_features": [
+        {
+            "feature": "log_kow",
+            "importance_mean": 0.5193184648170927,
+            "importance_standard_deviation": 0.03689025108366015
+        },
+        {
+            "feature": "descriptor_MolLogP",
+            "importance_mean": 0.1132390607266142,
+            "importance_standard_deviation": 0.013930495639521477
+        },
+        {
+            "feature": "descriptor_TPSA",
+            "importance_mean": 0.015560817453518231,
+            "importance_standard_deviation": 0.005990919793111328
+        },
+        {
+            "feature": "descriptor_VSA_EState2",
+            "importance_mean": 0.013285258936221294,
+            "importance_standard_deviation": 0.006288986833087217
+        },
+        {
+            "feature": "descriptor_SMR_VSA7",
+            "importance_mean": 0.012503437105355394,
+            "importance_standard_deviation": 0.004204896353092518
+        },
+        {
+            "feature": "descriptor_VSA_EState10",
+            "importance_mean": 0.01041768517274905,
+            "importance_standard_deviation": 0.003925654634532708
+        },
+        {
+            "feature": "descriptor_SlogP_VSA7",
+            "importance_mean": 0.008278572512087672,
+            "importance_standard_deviation": 0.002747962840334225
+        },
+        {
+            "feature": "descriptor_Kappa2",
+            "importance_mean": 0.006470355718062754,
+            "importance_standard_deviation": 0.0033367912716760536
+        },
+        {
+            "feature": "descriptor_Phi",
+            "importance_mean": 0.005532866975538597,
+            "importance_standard_deviation": 0.003597149575687977
+        },
+        {
+            "feature": "descriptor_BCUT2D_MWLOW",
+            "importance_mean": 0.0050828448685483665,
+            "importance_standard_deviation": 0.0027538133530866896
+        },
+        {
+            "feature": "descriptor_BCUT2D_MRLOW",
+            "importance_mean": 0.004858525383022588,
+            "importance_standard_deviation": 0.002298407155374499
+        },
+        {
+            "feature": "descriptor_PEOE_VSA1",
+            "importance_mean": 0.004167708552952063,
+            "importance_standard_deviation": 0.0027105773092077094
+        },
+        {
+            "feature": "descriptor_VSA_EState5",
+            "importance_mean": 0.004006258737717589,
+            "importance_standard_deviation": 0.001583585469559297
+        },
+        {
+            "feature": "descriptor_MaxAbsPartialCharge",
+            "importance_mean": 0.00388454557016914,
+            "importance_standard_deviation": 0.0021943070652741584
+        },
+        {
+            "feature": "descriptor_Chi1n",
+            "importance_mean": -0.003429856732768824,
+            "importance_standard_deviation": 0.0018941651299614276
+        },
+        {
+            "feature": "descriptor_PEOE_VSA14",
+            "importance_mean": 0.003037005005931495,
+            "importance_standard_deviation": 0.0013609448387173677
+        },
+        {
+            "feature": "descriptor_fr_COO",
+            "importance_mean": 0.002979982803593259,
+            "importance_standard_deviation": 0.003622042684703501
+        },
+        {
+            "feature": "descriptor_EState_VSA9",
+            "importance_mean": 0.0027079748704607553,
+            "importance_standard_deviation": 0.0024957538761632946
+        },
+        {
+            "feature": "descriptor_AvgIpc",
+            "importance_mean": 0.0026739692004081354,
+            "importance_standard_deviation": 0.0023516718147605312
+        },
+        {
+            "feature": "descriptor_SlogP_VSA2",
+            "importance_mean": 0.002451804860372028,
+            "importance_standard_deviation": 0.002161554366683576
+        }
+    ]
+}
