@@ -1,0 +1,15 @@
+{
+    "rank": 1,
+    "model_name": "xgboost",
+    "feature_group": "combined",
+    "feature_count": 2050,
+    "test_rows": 212,
+    "mae": 0.42276915414996863,
+    "rmse": 0.5713254350307508,
+    "r2": 0.8495063205543341,
+    "median_absolute_error": 0.3302576160430908,
+    "explained_variance": 0.8500840477350636,
+    "mean_residual": -0.035398579040225954,
+    "maximum_absolute_error": 2.4877481269836426,
+    "model_path": "models/combined/xgboost.joblib"
+}
